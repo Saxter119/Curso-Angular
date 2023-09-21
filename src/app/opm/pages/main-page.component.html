@@ -1,0 +1,12 @@
+<h1>Heroes society</h1>
+
+<div class="row">
+
+  <div class="col">
+    <app-opm-list [characters]="characters" (onDelete)="onDeleteCharacterById($event)"></app-opm-list>
+  </div>
+
+  <div class="col">
+    <app-opm-add-character (onNewCharacter)="onNewCharacter($event)"></app-opm-add-character>
+  </div>
+</div>
