@@ -25,7 +25,7 @@ export class OpmService {
   {
     id: uuid(),
     name: 'Zombieman',
-    range: 9
+    range: 9 
   }
   ]
 
